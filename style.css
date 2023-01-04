@@ -1,0 +1,48 @@
+body {
+	font-size: 1vw;
+}
+
+body * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div > * {
+	border: 1px solid #f00;
+	padding: 1rem;
+}
+
+div {
+}
+
+header {
+	background-color: hsl(20, 60%, 80%);
+}
+
+section {
+	background-color: hsl(50, 60%, 80%);
+}
+
+main {
+	background-color: hsl(120, 60%, 80%);
+}
+
+main > * {
+	border: 1px solid #f0f;
+	padding: 0.5em;
+}
+
+aside {
+	background-color: hsl(200, 60%, 80%);
+}
+
+aside article:nth-child(3) {
+}
+
+aside article:nth-child(1) {
+}
+
+footer {
+	background-color: hsl(300, 60%, 80%);
+}
